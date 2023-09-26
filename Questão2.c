@@ -20,7 +20,7 @@
         soma += i % 10;
     }
 
-    printf("A soma dos algarismos de %d eh igual a %d\n", numero, soma);
+    printf("A soma dos algarismos de %d eh %d\n", numero, soma);
 
     return 0;
 }
