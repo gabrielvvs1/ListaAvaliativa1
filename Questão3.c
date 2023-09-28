@@ -3,23 +3,21 @@
 // questao3
 
     int main(){
-    int senhaCadastrada, senhaAdicionada;
-
-    printf("senha cadastrada: ");
-    scanf("%d", &senhaCadastrada);
-
+    int senha, tentativa;
     
-    while (1){ //faz um loop ate a senha cadastrada ser adiconada.
-    printf("Digite a senha: ");
-    scanf("%d", &senhaAdicionada);
+    scanf("%4d", &senha); 
+    printf("senha cadastrada: %4d\n", senha);
 
-    if (senhaAdicionada == senhaCadastrada) {
-        printf("senha valida!\n");
-        break;
-    } else{
+    while (1){
+        scanf("%4d", &tentativa); 
+
+        if (senha == tentativa) {
+            printf("senha valida!\n");
+            break;
+        } else {
             printf("senha invalida!\n");
         }
-    }
+     }
 
     return 0;
 }
