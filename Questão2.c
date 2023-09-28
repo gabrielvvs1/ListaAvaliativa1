@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 // questao2
-
     int main(){
     
     int numero;
