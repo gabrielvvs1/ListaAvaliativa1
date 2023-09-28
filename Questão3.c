@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 // questao3
-
     int main(){
     int senha, tentativa;
     
